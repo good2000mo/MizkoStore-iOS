@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D816F3F7192A44AD00BD8003 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D816F3F6192A44AD00BD8003 /* Foundation.framework */; };
+		D816F3F9192A44AD00BD8003 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D816F3F8192A44AD00BD8003 /* CoreGraphics.framework */; };
+		D816F3FB192A44AD00BD8003 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D816F3FA192A44AD00BD8003 /* UIKit.framework */; };
+		D816F401192A44AD00BD8003 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D816F3FF192A44AD00BD8003 /* InfoPlist.strings */; };
+		D816F403192A44AD00BD8003 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D816F402192A44AD00BD8003 /* main.m */; };
+		D816F407192A44AD00BD8003 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D816F406192A44AD00BD8003 /* AppDelegate.m */; };
+		D816F40A192A44AD00BD8003 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D816F408192A44AD00BD8003 /* Main.storyboard */; };
+		D816F40D192A44AD00BD8003 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D816F40C192A44AD00BD8003 /* FirstViewController.m */; };
+		D816F410192A44AD00BD8003 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D816F40F192A44AD00BD8003 /* SecondViewController.m */; };
+		D816F412192A44AD00BD8003 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D816F411192A44AD00BD8003 /* Images.xcassets */; };
+		D816F419192A44AD00BD8003 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D816F418192A44AD00BD8003 /* XCTest.framework */; };
+		D816F41A192A44AD00BD8003 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D816F3F6192A44AD00BD8003 /* Foundation.framework */; };
+		D816F41B192A44AD00BD8003 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D816F3FA192A44AD00BD8003 /* UIKit.framework */; };
+		D816F423192A44AD00BD8003 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D816F421192A44AD00BD8003 /* InfoPlist.strings */; };
+		D816F425192A44AD00BD8003 /* MizkoStoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D816F424192A44AD00BD8003 /* MizkoStoreTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D816F41C192A44AD00BD8003 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D816F3EB192A44AD00BD8003 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D816F3F2192A44AD00BD8003;
+			remoteInfo = MizkoStore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D816F3F3192A44AD00BD8003 /* MizkoStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MizkoStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D816F3F6192A44AD00BD8003 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D816F3F8192A44AD00BD8003 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D816F3FA192A44AD00BD8003 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D816F3FE192A44AD00BD8003 /* MizkoStore-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MizkoStore-Info.plist"; sourceTree = "<group>"; };
+		D816F400192A44AD00BD8003 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D816F402192A44AD00BD8003 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D816F404192A44AD00BD8003 /* MizkoStore-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MizkoStore-Prefix.pch"; sourceTree = "<group>"; };
+		D816F405192A44AD00BD8003 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D816F406192A44AD00BD8003 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D816F409192A44AD00BD8003 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D816F40B192A44AD00BD8003 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		D816F40C192A44AD00BD8003 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		D816F40E192A44AD00BD8003 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		D816F40F192A44AD00BD8003 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		D816F411192A44AD00BD8003 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D816F417192A44AD00BD8003 /* MizkoStoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MizkoStoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D816F418192A44AD00BD8003 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D816F420192A44AD00BD8003 /* MizkoStoreTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MizkoStoreTests-Info.plist"; sourceTree = "<group>"; };
+		D816F422192A44AD00BD8003 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D816F424192A44AD00BD8003 /* MizkoStoreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MizkoStoreTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D816F3F0192A44AD00BD8003 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D816F3F9192A44AD00BD8003 /* CoreGraphics.framework in Frameworks */,
+				D816F3FB192A44AD00BD8003 /* UIKit.framework in Frameworks */,
+				D816F3F7192A44AD00BD8003 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D816F414192A44AD00BD8003 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D816F419192A44AD00BD8003 /* XCTest.framework in Frameworks */,
+				D816F41B192A44AD00BD8003 /* UIKit.framework in Frameworks */,
+				D816F41A192A44AD00BD8003 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D816F3EA192A44AD00BD8003 = {
+			isa = PBXGroup;
+			children = (
+				D816F3FC192A44AD00BD8003 /* MizkoStore */,
+				D816F41E192A44AD00BD8003 /* MizkoStoreTests */,
+				D816F3F5192A44AD00BD8003 /* Frameworks */,
+				D816F3F4192A44AD00BD8003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D816F3F4192A44AD00BD8003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D816F3F3192A44AD00BD8003 /* MizkoStore.app */,
+				D816F417192A44AD00BD8003 /* MizkoStoreTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D816F3F5192A44AD00BD8003 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D816F3F6192A44AD00BD8003 /* Foundation.framework */,
+				D816F3F8192A44AD00BD8003 /* CoreGraphics.framework */,
+				D816F3FA192A44AD00BD8003 /* UIKit.framework */,
+				D816F418192A44AD00BD8003 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D816F3FC192A44AD00BD8003 /* MizkoStore */ = {
+			isa = PBXGroup;
+			children = (
+				D816F405192A44AD00BD8003 /* AppDelegate.h */,
+				D816F406192A44AD00BD8003 /* AppDelegate.m */,
+				D816F408192A44AD00BD8003 /* Main.storyboard */,
+				D816F40B192A44AD00BD8003 /* FirstViewController.h */,
+				D816F40C192A44AD00BD8003 /* FirstViewController.m */,
+				D816F40E192A44AD00BD8003 /* SecondViewController.h */,
+				D816F40F192A44AD00BD8003 /* SecondViewController.m */,
+				D816F411192A44AD00BD8003 /* Images.xcassets */,
+				D816F3FD192A44AD00BD8003 /* Supporting Files */,
+			);
+			path = MizkoStore;
+			sourceTree = "<group>";
+		};
+		D816F3FD192A44AD00BD8003 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D816F3FE192A44AD00BD8003 /* MizkoStore-Info.plist */,
+				D816F3FF192A44AD00BD8003 /* InfoPlist.strings */,
+				D816F402192A44AD00BD8003 /* main.m */,
+				D816F404192A44AD00BD8003 /* MizkoStore-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D816F41E192A44AD00BD8003 /* MizkoStoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				D816F424192A44AD00BD8003 /* MizkoStoreTests.m */,
+				D816F41F192A44AD00BD8003 /* Supporting Files */,
+			);
+			path = MizkoStoreTests;
+			sourceTree = "<group>";
+		};
+		D816F41F192A44AD00BD8003 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D816F420192A44AD00BD8003 /* MizkoStoreTests-Info.plist */,
+				D816F421192A44AD00BD8003 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D816F3F2192A44AD00BD8003 /* MizkoStore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D816F428192A44AD00BD8003 /* Build configuration list for PBXNativeTarget "MizkoStore" */;
+			buildPhases = (
+				D816F3EF192A44AD00BD8003 /* Sources */,
+				D816F3F0192A44AD00BD8003 /* Frameworks */,
+				D816F3F1192A44AD00BD8003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MizkoStore;
+			productName = MizkoStore;
+			productReference = D816F3F3192A44AD00BD8003 /* MizkoStore.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D816F416192A44AD00BD8003 /* MizkoStoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D816F42B192A44AD00BD8003 /* Build configuration list for PBXNativeTarget "MizkoStoreTests" */;
+			buildPhases = (
+				D816F413192A44AD00BD8003 /* Sources */,
+				D816F414192A44AD00BD8003 /* Frameworks */,
+				D816F415192A44AD00BD8003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D816F41D192A44AD00BD8003 /* PBXTargetDependency */,
+			);
+			name = MizkoStoreTests;
+			productName = MizkoStoreTests;
+			productReference = D816F417192A44AD00BD8003 /* MizkoStoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D816F3EB192A44AD00BD8003 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = MIZKO.ORG;
+				TargetAttributes = {
+					D816F416192A44AD00BD8003 = {
+						TestTargetID = D816F3F2192A44AD00BD8003;
+					};
+				};
+			};
+			buildConfigurationList = D816F3EE192A44AD00BD8003 /* Build configuration list for PBXProject "MizkoStore" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D816F3EA192A44AD00BD8003;
+			productRefGroup = D816F3F4192A44AD00BD8003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D816F3F2192A44AD00BD8003 /* MizkoStore */,
+				D816F416192A44AD00BD8003 /* MizkoStoreTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D816F3F1192A44AD00BD8003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D816F412192A44AD00BD8003 /* Images.xcassets in Resources */,
+				D816F401192A44AD00BD8003 /* InfoPlist.strings in Resources */,
+				D816F40A192A44AD00BD8003 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D816F415192A44AD00BD8003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D816F423192A44AD00BD8003 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D816F3EF192A44AD00BD8003 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D816F410192A44AD00BD8003 /* SecondViewController.m in Sources */,
+				D816F407192A44AD00BD8003 /* AppDelegate.m in Sources */,
+				D816F40D192A44AD00BD8003 /* FirstViewController.m in Sources */,
+				D816F403192A44AD00BD8003 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D816F413192A44AD00BD8003 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D816F425192A44AD00BD8003 /* MizkoStoreTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D816F41D192A44AD00BD8003 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D816F3F2192A44AD00BD8003 /* MizkoStore */;
+			targetProxy = D816F41C192A44AD00BD8003 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D816F3FF192A44AD00BD8003 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D816F400192A44AD00BD8003 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D816F408192A44AD00BD8003 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D816F409192A44AD00BD8003 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D816F421192A44AD00BD8003 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D816F422192A44AD00BD8003 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D816F426192A44AD00BD8003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D816F427192A44AD00BD8003 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D816F429192A44AD00BD8003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MizkoStore/MizkoStore-Prefix.pch";
+				INFOPLIST_FILE = "MizkoStore/MizkoStore-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D816F42A192A44AD00BD8003 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MizkoStore/MizkoStore-Prefix.pch";
+				INFOPLIST_FILE = "MizkoStore/MizkoStore-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D816F42C192A44AD00BD8003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MizkoStore.app/MizkoStore";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MizkoStore/MizkoStore-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MizkoStoreTests/MizkoStoreTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D816F42D192A44AD00BD8003 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MizkoStore.app/MizkoStore";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MizkoStore/MizkoStore-Prefix.pch";
+				INFOPLIST_FILE = "MizkoStoreTests/MizkoStoreTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D816F3EE192A44AD00BD8003 /* Build configuration list for PBXProject "MizkoStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D816F426192A44AD00BD8003 /* Debug */,
+				D816F427192A44AD00BD8003 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D816F428192A44AD00BD8003 /* Build configuration list for PBXNativeTarget "MizkoStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D816F429192A44AD00BD8003 /* Debug */,
+				D816F42A192A44AD00BD8003 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D816F42B192A44AD00BD8003 /* Build configuration list for PBXNativeTarget "MizkoStoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D816F42C192A44AD00BD8003 /* Debug */,
+				D816F42D192A44AD00BD8003 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D816F3EB192A44AD00BD8003 /* Project object */;
+}
