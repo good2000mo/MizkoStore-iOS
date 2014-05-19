@@ -1,0 +1,51 @@
+# OS X
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# Xcode
+.DS_Store
+*/build/*
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+profile
+*.moved-aside
+DerivedData
+.idea/
+*.hmap
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Subversion
+.svn/
+
+# Project
+MizkoStore.xcworkspace/*.mode1v3
+MizkoStore.xcworkspace/*.mode2v3
+MizkoStore.xcworkspace/*.pbxuser
+MizkoStore.xcworkspace/*.perspectivev3
+MizkoStore.xcworkspace/*.xcuserdata
+MizkoStore.xcworkspace/project.xcworkspace
+MizkoStore.xcworkspace/xcuserdata
+MizkoStore.xcworkspace/xcshareddata/MizkoStore.xccheckout
+MizkoStore/MizkoStore.xcodeproj/*.mode1v3
+MizkoStore/MizkoStore.xcodeproj/*.mode2v3
+MizkoStore/MizkoStore.xcodeproj/*.pbxuser
+MizkoStore/MizkoStore.xcodeproj/*.perspectivev3
+MizkoStore/MizkoStore.xcodeproj/project.xcworkspace
+MizkoStore/MizkoStore.xcodeproj/xcuserdata
