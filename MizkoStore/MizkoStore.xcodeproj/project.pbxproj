@@ -204,6 +204,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = MIZKO.ORG;
 				TargetAttributes = {
+					D816F3F2192A44AD00BD8003 = {
+						DevelopmentTeam = 695GMRRZN3;
+					};
 					D816F416192A44AD00BD8003 = {
 						TestTargetID = D816F3F2192A44AD00BD8003;
 					};
@@ -382,9 +385,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MizkoStore/MizkoStore-Prefix.pch";
 				INFOPLIST_FILE = "MizkoStore/MizkoStore-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -395,9 +400,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MizkoStore/MizkoStore-Prefix.pch";
 				INFOPLIST_FILE = "MizkoStore/MizkoStore-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -462,6 +469,7 @@
 				D816F42A192A44AD00BD8003 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D816F42B192A44AD00BD8003 /* Build configuration list for PBXNativeTarget "MizkoStoreTests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +478,7 @@
 				D816F42D192A44AD00BD8003 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
